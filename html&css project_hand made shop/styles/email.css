@@ -1,0 +1,25 @@
+.box_email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.email {
+  margin-bottom: 10px;
+  width: 250px;
+}
+.box_email button {
+  margin-top: 10px;
+  background-color: rgb(238, 151, 20);
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.box_email button:hover {
+  background-color: rgb(34, 230, 92);
+  cursor: pointer;
+}
